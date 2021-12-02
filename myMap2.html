@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6fcaa68a9e5a4d88869a6aaea505d3dc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6fcaa68a9e5a4d88869a6aaea505d3dc" ></div>
+        
+</body>
+<script>    
+    
+            var map_6fcaa68a9e5a4d88869a6aaea505d3dc = L.map(
+                "map_6fcaa68a9e5a4d88869a6aaea505d3dc",
+                {
+                    center: [40.768731, -73.964915],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98900c62177d44c29991c72d18bcf7d1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+            var marker_7bacce69f8c9478081bf65e7b5ea144c = L.marker(
+                [40.681596, -73.9770380003],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_6cfb26a2d1eb4d26a48723e1163f1105 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e14368c2cca4a2db08f795e56682146 = $(`<div id="html_7e14368c2cca4a2db08f795e56682146" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_6cfb26a2d1eb4d26a48723e1163f1105.setContent(html_7e14368c2cca4a2db08f795e56682146);
+        
+
+        marker_7bacce69f8c9478081bf65e7b5ea144c.bindPopup(popup_6cfb26a2d1eb4d26a48723e1163f1105)
+        ;
+
+        
+    
+    
+            var marker_48e8f87ce1b0418ead2b7fcae5039592 = L.marker(
+                [40.6624380004, -73.9506050003],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_af7fd3b18f6046ba87431df06354343c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a0d082102df4c51b5933a31e686e98a = $(`<div id="html_0a0d082102df4c51b5933a31e686e98a" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_af7fd3b18f6046ba87431df06354343c.setContent(html_0a0d082102df4c51b5933a31e686e98a);
+        
+
+        marker_48e8f87ce1b0418ead2b7fcae5039592.bindPopup(popup_af7fd3b18f6046ba87431df06354343c)
+        ;
+
+        
+    
+    
+            var marker_88a5a89e3c5e4972b386f492821ab361 = L.marker(
+                [40.6878136202, -73.9812839303],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_be19a85b200e45739119ba9504839846 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3b8cc25b1a24c1185dcd66b445c525d = $(`<div id="html_a3b8cc25b1a24c1185dcd66b445c525d" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_be19a85b200e45739119ba9504839846.setContent(html_a3b8cc25b1a24c1185dcd66b445c525d);
+        
+
+        marker_88a5a89e3c5e4972b386f492821ab361.bindPopup(popup_be19a85b200e45739119ba9504839846)
+        ;
+
+        
+    
+    
+            var marker_af1d1f5faa1844a1983c313135783d99 = L.marker(
+                [40.6665385801, -73.9883783202],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_fd5c493d03f141d3a26be0e2cd673aef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a76bd64351214647948a55bca1513599 = $(`<div id="html_a76bd64351214647948a55bca1513599" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_fd5c493d03f141d3a26be0e2cd673aef.setContent(html_a76bd64351214647948a55bca1513599);
+        
+
+        marker_af1d1f5faa1844a1983c313135783d99.bindPopup(popup_fd5c493d03f141d3a26be0e2cd673aef)
+        ;
+
+        
+    
+    
+            var marker_739874c1fbf640a8973ef5197aac61d2 = L.marker(
+                [40.6641759998, -73.99035300050001],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_6e368df8306a4b3f9443b8f80b3c27f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bacd617af22b4fb9adc7c03c34ad2b59 = $(`<div id="html_bacd617af22b4fb9adc7c03c34ad2b59" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_6e368df8306a4b3f9443b8f80b3c27f4.setContent(html_bacd617af22b4fb9adc7c03c34ad2b59);
+        
+
+        marker_739874c1fbf640a8973ef5197aac61d2.bindPopup(popup_6e368df8306a4b3f9443b8f80b3c27f4)
+        ;
+
+        
+    
+    
+            var marker_9b37f6ed565a4876a5b13363ed2b213d = L.marker(
+                [40.6515900001, -73.9321869996],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_92f36745af7049e6b4139e427cd20d5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d239fcb3402844aa971ff7f58817930e = $(`<div id="html_d239fcb3402844aa971ff7f58817930e" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_92f36745af7049e6b4139e427cd20d5f.setContent(html_d239fcb3402844aa971ff7f58817930e);
+        
+
+        marker_9b37f6ed565a4876a5b13363ed2b213d.bindPopup(popup_92f36745af7049e6b4139e427cd20d5f)
+        ;
+
+        
+    
+    
+            var marker_4af771ddd3cd4f5e8dc0be30d7772fb9 = L.marker(
+                [40.6607317999, -73.9507266396],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_77a7a8dd5642402fa9fdae8a0e1bdb10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c3eaebdb8a84f72898dcce910fd8f64 = $(`<div id="html_2c3eaebdb8a84f72898dcce910fd8f64" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_77a7a8dd5642402fa9fdae8a0e1bdb10.setContent(html_2c3eaebdb8a84f72898dcce910fd8f64);
+        
+
+        marker_4af771ddd3cd4f5e8dc0be30d7772fb9.bindPopup(popup_77a7a8dd5642402fa9fdae8a0e1bdb10)
+        ;
+
+        
+    
+    
+            var marker_b82b81a0b0304daab250396179a6a321 = L.marker(
+                [40.7089220198, -73.9433896499],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_eb00ea9f71a3431ba0f7d0595ae7071d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2998e7d2d19e4c69a7e68465398436f1 = $(`<div id="html_2998e7d2d19e4c69a7e68465398436f1" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_eb00ea9f71a3431ba0f7d0595ae7071d.setContent(html_2998e7d2d19e4c69a7e68465398436f1);
+        
+
+        marker_b82b81a0b0304daab250396179a6a321.bindPopup(popup_eb00ea9f71a3431ba0f7d0595ae7071d)
+        ;
+
+        
+    
+    
+            var marker_ca825cba4c354225b0144faa60a68ebb = L.marker(
+                [40.711078900100006, -73.9437320696],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_3a50d2e1d039481ebd1ff57a2da06116 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9eff83e9c324cd5bcdfeef6ace51f3a = $(`<div id="html_d9eff83e9c324cd5bcdfeef6ace51f3a" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_3a50d2e1d039481ebd1ff57a2da06116.setContent(html_d9eff83e9c324cd5bcdfeef6ace51f3a);
+        
+
+        marker_ca825cba4c354225b0144faa60a68ebb.bindPopup(popup_3a50d2e1d039481ebd1ff57a2da06116)
+        ;
+
+        
+    
+    
+            var marker_e900257ff50742e891a37f302cb49341 = L.marker(
+                [40.6321347751, -73.9467806744],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_66c53e67764249d99b5ae59c4946808f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_330f4ce484e643b1aad3c1f57fed5938 = $(`<div id="html_330f4ce484e643b1aad3c1f57fed5938" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_66c53e67764249d99b5ae59c4946808f.setContent(html_330f4ce484e643b1aad3c1f57fed5938);
+        
+
+        marker_e900257ff50742e891a37f302cb49341.bindPopup(popup_66c53e67764249d99b5ae59c4946808f)
+        ;
+
+        
+    
+    
+            var marker_229224db3ccc4417aa63df109eb25343 = L.marker(
+                [40.6635500702, -73.9912456206],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_83f6c8de06af4462977614b0050f62b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d1ceff594e54facba959c7ce35467d4 = $(`<div id="html_9d1ceff594e54facba959c7ce35467d4" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_83f6c8de06af4462977614b0050f62b8.setContent(html_9d1ceff594e54facba959c7ce35467d4);
+        
+
+        marker_229224db3ccc4417aa63df109eb25343.bindPopup(popup_83f6c8de06af4462977614b0050f62b8)
+        ;
+
+        
+    
+    
+            var marker_69260f48439b47498a0826c0d207e9f4 = L.marker(
+                [40.676409000300005, -73.98029],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_72129b1d6f3e403b8efe8d4783bdaae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b84aefccf2a74cfb9fa9147b7afa7e3f = $(`<div id="html_b84aefccf2a74cfb9fa9147b7afa7e3f" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_72129b1d6f3e403b8efe8d4783bdaae1.setContent(html_b84aefccf2a74cfb9fa9147b7afa7e3f);
+        
+
+        marker_69260f48439b47498a0826c0d207e9f4.bindPopup(popup_72129b1d6f3e403b8efe8d4783bdaae1)
+        ;
+
+        
+    
+    
+            var marker_aae06aedb3d94ae4bb14d835125f2b8d = L.marker(
+                [40.6740388697, -73.9568263802],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_f0668fd50ba24e39b8ee52bca762bb70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18cbba2471d04cc7827491394df5fe2c = $(`<div id="html_18cbba2471d04cc7827491394df5fe2c" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_f0668fd50ba24e39b8ee52bca762bb70.setContent(html_18cbba2471d04cc7827491394df5fe2c);
+        
+
+        marker_aae06aedb3d94ae4bb14d835125f2b8d.bindPopup(popup_f0668fd50ba24e39b8ee52bca762bb70)
+        ;
+
+        
+    
+    
+            var marker_bf63253b9fbb4158adedc9c474c3f051 = L.marker(
+                [40.7072078604, -73.9541948804],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_73b4c970aa804ebc88a0ddb507ab1ddc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70a18e8872e240e59c073a3759898ffc = $(`<div id="html_70a18e8872e240e59c073a3759898ffc" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_73b4c970aa804ebc88a0ddb507ab1ddc.setContent(html_70a18e8872e240e59c073a3759898ffc);
+        
+
+        marker_bf63253b9fbb4158adedc9c474c3f051.bindPopup(popup_73b4c970aa804ebc88a0ddb507ab1ddc)
+        ;
+
+        
+    
+    
+            var marker_c7d0b834eb5c480cac362e6841b1dfd6 = L.marker(
+                [40.7072078604, -73.9541948804],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_10120963694b4fbc92e0503776cb65e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05824814c24c428891a3a0412f47675c = $(`<div id="html_05824814c24c428891a3a0412f47675c" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_10120963694b4fbc92e0503776cb65e0.setContent(html_05824814c24c428891a3a0412f47675c);
+        
+
+        marker_c7d0b834eb5c480cac362e6841b1dfd6.bindPopup(popup_10120963694b4fbc92e0503776cb65e0)
+        ;
+
+        
+    
+    
+            var marker_ef0394797818495090470a3512881a8b = L.marker(
+                [40.6553200002, -73.9499660006],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_85d5dddf3f494ebdbbe59cd3e40cd920 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16c3338cc3d042c9b8ac5529e35d5fcc = $(`<div id="html_16c3338cc3d042c9b8ac5529e35d5fcc" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_85d5dddf3f494ebdbbe59cd3e40cd920.setContent(html_16c3338cc3d042c9b8ac5529e35d5fcc);
+        
+
+        marker_ef0394797818495090470a3512881a8b.bindPopup(popup_85d5dddf3f494ebdbbe59cd3e40cd920)
+        ;
+
+        
+    
+    
+            var marker_6670f597c84a44ed89b13a0377473d1d = L.marker(
+                [40.6510468198, -73.9439693004],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_95cbf909179b472cb7bec4ffc16f71f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4627b471d5fa4cf892298c59b67227f7 = $(`<div id="html_4627b471d5fa4cf892298c59b67227f7" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_95cbf909179b472cb7bec4ffc16f71f7.setContent(html_4627b471d5fa4cf892298c59b67227f7);
+        
+
+        marker_6670f597c84a44ed89b13a0377473d1d.bindPopup(popup_95cbf909179b472cb7bec4ffc16f71f7)
+        ;
+
+        
+    
+    
+            var marker_2145ff119cc043a89726ff51d782f6ac = L.marker(
+                [40.6752539996, -73.9814689995],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_490650dcdec74c44bc131a76a1936bbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fa6aea269b6404d968616cc0d2ce14b = $(`<div id="html_4fa6aea269b6404d968616cc0d2ce14b" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_490650dcdec74c44bc131a76a1936bbd.setContent(html_4fa6aea269b6404d968616cc0d2ce14b);
+        
+
+        marker_2145ff119cc043a89726ff51d782f6ac.bindPopup(popup_490650dcdec74c44bc131a76a1936bbd)
+        ;
+
+        
+    
+    
+            var marker_a6549c1abcc24ef69562622a965180f4 = L.marker(
+                [40.6786540002, -73.916507],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_65ef45199a1441cf88485d86d43990c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bd677993bd140eda74cb1890e06681a = $(`<div id="html_3bd677993bd140eda74cb1890e06681a" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_65ef45199a1441cf88485d86d43990c3.setContent(html_3bd677993bd140eda74cb1890e06681a);
+        
+
+        marker_a6549c1abcc24ef69562622a965180f4.bindPopup(popup_65ef45199a1441cf88485d86d43990c3)
+        ;
+
+        
+    
+    
+            var marker_4593a1efcc9c4da88afe043f84a673b3 = L.marker(
+                [40.677588779699995, -73.9730618003],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_145e409bf1a5477ca1adef3ca246b180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a2a5d8fb7f4443d9aee2601f14bb7f6 = $(`<div id="html_0a2a5d8fb7f4443d9aee2601f14bb7f6" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_145e409bf1a5477ca1adef3ca246b180.setContent(html_0a2a5d8fb7f4443d9aee2601f14bb7f6);
+        
+
+        marker_4593a1efcc9c4da88afe043f84a673b3.bindPopup(popup_145e409bf1a5477ca1adef3ca246b180)
+        ;
+
+        
+    
+    
+            var marker_c11e4d7dfebc465faf22caf05b1f3a5f = L.marker(
+                [40.6723020003, -73.9574577399],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_b59d3484a312499e9af987088c1c93e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8d9ceb8df2040bca3694b53bf8cd2e4 = $(`<div id="html_f8d9ceb8df2040bca3694b53bf8cd2e4" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_b59d3484a312499e9af987088c1c93e5.setContent(html_f8d9ceb8df2040bca3694b53bf8cd2e4);
+        
+
+        marker_c11e4d7dfebc465faf22caf05b1f3a5f.bindPopup(popup_b59d3484a312499e9af987088c1c93e5)
+        ;
+
+        
+    
+    
+            var marker_9f728fc8652b475d8a636ea80be9bab2 = L.marker(
+                [40.650947490300005, -73.94554462949999],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_797f60ca1b344a588dc40f68a6b02031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b878af73ee7c4e6abd6bdf27d3f7ec6c = $(`<div id="html_b878af73ee7c4e6abd6bdf27d3f7ec6c" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_797f60ca1b344a588dc40f68a6b02031.setContent(html_b878af73ee7c4e6abd6bdf27d3f7ec6c);
+        
+
+        marker_9f728fc8652b475d8a636ea80be9bab2.bindPopup(popup_797f60ca1b344a588dc40f68a6b02031)
+        ;
+
+        
+    
+    
+            var marker_3b72dc6026464c3c9403b7498ebb3c03 = L.marker(
+                [40.6662297103, -73.9890566195],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_6c87cfb97c9a400685da7ebb10956caf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b69f6f13b5ec4ce5a73905833aa1f8cc = $(`<div id="html_b69f6f13b5ec4ce5a73905833aa1f8cc" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_6c87cfb97c9a400685da7ebb10956caf.setContent(html_b69f6f13b5ec4ce5a73905833aa1f8cc);
+        
+
+        marker_3b72dc6026464c3c9403b7498ebb3c03.bindPopup(popup_6c87cfb97c9a400685da7ebb10956caf)
+        ;
+
+        
+    
+    
+            var marker_f88e4c09e8ea4527aff2c3a5c7cc50cc = L.marker(
+                [40.6513409997, -73.9401659996],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_4fc188194e504da1abe58244c4ee1372 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77d31def940b491ba0465ba7664a7bf4 = $(`<div id="html_77d31def940b491ba0465ba7664a7bf4" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_4fc188194e504da1abe58244c4ee1372.setContent(html_77d31def940b491ba0465ba7664a7bf4);
+        
+
+        marker_f88e4c09e8ea4527aff2c3a5c7cc50cc.bindPopup(popup_4fc188194e504da1abe58244c4ee1372)
+        ;
+
+        
+    
+    
+            var marker_5a8cf2ec04d348e8aee715b18facc9f5 = L.marker(
+                [40.6835909998, -73.9670929999],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_56e5cf91bf9143fc94681b0452d3a442 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbbb8728a36d4d388986b0fb72e91198 = $(`<div id="html_fbbb8728a36d4d388986b0fb72e91198" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_56e5cf91bf9143fc94681b0452d3a442.setContent(html_fbbb8728a36d4d388986b0fb72e91198);
+        
+
+        marker_5a8cf2ec04d348e8aee715b18facc9f5.bindPopup(popup_56e5cf91bf9143fc94681b0452d3a442)
+        ;
+
+        
+    
+    
+            var marker_04aa5f0505ca49deafdcbbc36f3c4ced = L.marker(
+                [40.657704000100004, -74.0006889997],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_10f15e0d0afd42f29b2eb5c2adf106a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3092bf28838948fa923f7ec45ef6c909 = $(`<div id="html_3092bf28838948fa923f7ec45ef6c909" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_10f15e0d0afd42f29b2eb5c2adf106a4.setContent(html_3092bf28838948fa923f7ec45ef6c909);
+        
+
+        marker_04aa5f0505ca49deafdcbbc36f3c4ced.bindPopup(popup_10f15e0d0afd42f29b2eb5c2adf106a4)
+        ;
+
+        
+    
+    
+            var marker_bc7176a1997b446396abf7e7a885bec8 = L.marker(
+                [40.657704000100004, -74.0006889997],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_092f39fbbbdb40c98b7b1e01bfc218b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d27b34c05f741549f7150a2563d944e = $(`<div id="html_4d27b34c05f741549f7150a2563d944e" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_092f39fbbbdb40c98b7b1e01bfc218b9.setContent(html_4d27b34c05f741549f7150a2563d944e);
+        
+
+        marker_bc7176a1997b446396abf7e7a885bec8.bindPopup(popup_092f39fbbbdb40c98b7b1e01bfc218b9)
+        ;
+
+        
+    
+    
+            var marker_9496acdeedd3420cb3cc928a833362de = L.marker(
+                [40.6512299704, -73.94206208],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_98ff2c0612dd46a7b73ee4c4d272c6d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcf4b3fd13494b0c8fa985f7bca13e0d = $(`<div id="html_fcf4b3fd13494b0c8fa985f7bca13e0d" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_98ff2c0612dd46a7b73ee4c4d272c6d4.setContent(html_fcf4b3fd13494b0c8fa985f7bca13e0d);
+        
+
+        marker_9496acdeedd3420cb3cc928a833362de.bindPopup(popup_98ff2c0612dd46a7b73ee4c4d272c6d4)
+        ;
+
+        
+    
+    
+            var marker_75f25b43611d49acb3ba108ecf9211f8 = L.marker(
+                [40.6886723001, -73.9837100796],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_f0b64afa75f644c0b435e491cef0d719 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de32f9d12e964f4891863a997d46d784 = $(`<div id="html_de32f9d12e964f4891863a997d46d784" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_f0b64afa75f644c0b435e491cef0d719.setContent(html_de32f9d12e964f4891863a997d46d784);
+        
+
+        marker_75f25b43611d49acb3ba108ecf9211f8.bindPopup(popup_f0b64afa75f644c0b435e491cef0d719)
+        ;
+
+        
+    
+    
+            var marker_33fdfbd0aff846998302e968a77aeaa9 = L.marker(
+                [40.6439408604, -73.9579902597],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_eaed650f2acd4cfa91251612a598ac78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3878c4ed40d245ca8e0d492c024007fa = $(`<div id="html_3878c4ed40d245ca8e0d492c024007fa" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_eaed650f2acd4cfa91251612a598ac78.setContent(html_3878c4ed40d245ca8e0d492c024007fa);
+        
+
+        marker_33fdfbd0aff846998302e968a77aeaa9.bindPopup(popup_eaed650f2acd4cfa91251612a598ac78)
+        ;
+
+        
+    
+    
+            var marker_b1aa5356a3154764aecb068eeaf9694d = L.marker(
+                [40.6810387203, -73.97573017010001],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_75f1badd89524e1ab427603f25bf9fa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdd4c42d6f364528a1fc968681cc736b = $(`<div id="html_fdd4c42d6f364528a1fc968681cc736b" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_75f1badd89524e1ab427603f25bf9fa8.setContent(html_fdd4c42d6f364528a1fc968681cc736b);
+        
+
+        marker_b1aa5356a3154764aecb068eeaf9694d.bindPopup(popup_75f1badd89524e1ab427603f25bf9fa8)
+        ;
+
+        
+    
+    
+            var marker_27a9a6fab96b431e93661b59810bf42a = L.marker(
+                [40.6486891904, -73.9559619698],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_7596334e727341c7af07d110b15ce3bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5d693b9448144619cba37f7de4e7771 = $(`<div id="html_f5d693b9448144619cba37f7de4e7771" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_7596334e727341c7af07d110b15ce3bd.setContent(html_f5d693b9448144619cba37f7de4e7771);
+        
+
+        marker_27a9a6fab96b431e93661b59810bf42a.bindPopup(popup_7596334e727341c7af07d110b15ce3bd)
+        ;
+
+        
+    
+    
+            var marker_bb08918fe6394d21b38ba4e6ce3e786b = L.marker(
+                [40.688038759899996, -73.9818721505],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_cbe4a7a83eb24544818328948d43f49b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b16d01a8759f4bc9896c957bf4628f22 = $(`<div id="html_b16d01a8759f4bc9896c957bf4628f22" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_cbe4a7a83eb24544818328948d43f49b.setContent(html_b16d01a8759f4bc9896c957bf4628f22);
+        
+
+        marker_bb08918fe6394d21b38ba4e6ce3e786b.bindPopup(popup_cbe4a7a83eb24544818328948d43f49b)
+        ;
+
+        
+    
+    
+            var marker_b053425423dd408a810eae5eaed997ec = L.marker(
+                [40.6713549996, -73.9577929997],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_39f87d1daf004de697ac596a13a5483c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2db34316fdda4a3fa1f2ccc41a02ddc0 = $(`<div id="html_2db34316fdda4a3fa1f2ccc41a02ddc0" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_39f87d1daf004de697ac596a13a5483c.setContent(html_2db34316fdda4a3fa1f2ccc41a02ddc0);
+        
+
+        marker_b053425423dd408a810eae5eaed997ec.bindPopup(popup_39f87d1daf004de697ac596a13a5483c)
+        ;
+
+        
+    
+    
+            var marker_f896d0afa0e94195a49749ecd8203a4a = L.marker(
+                [40.688449430300004, -73.98247226],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_8859d33dd05345a19d9de864745fe2ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_724f844cfd054be8aee8ce9a11ba66df = $(`<div id="html_724f844cfd054be8aee8ce9a11ba66df" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_8859d33dd05345a19d9de864745fe2ef.setContent(html_724f844cfd054be8aee8ce9a11ba66df);
+        
+
+        marker_f896d0afa0e94195a49749ecd8203a4a.bindPopup(popup_8859d33dd05345a19d9de864745fe2ef)
+        ;
+
+        
+    
+    
+            var marker_a8e4f8278f544af09836852d958a85e3 = L.marker(
+                [40.6756590004, -73.9635529999],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_befb0789a69a42a9aef7565951e1be24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5beb2177ea7c4f47ab7dca5171bd74cf = $(`<div id="html_5beb2177ea7c4f47ab7dca5171bd74cf" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_befb0789a69a42a9aef7565951e1be24.setContent(html_5beb2177ea7c4f47ab7dca5171bd74cf);
+        
+
+        marker_a8e4f8278f544af09836852d958a85e3.bindPopup(popup_befb0789a69a42a9aef7565951e1be24)
+        ;
+
+        
+    
+    
+            var marker_3e8008756a8e43ae99a9a804de0d5f3b = L.marker(
+                [40.6821995703, -73.9616482003],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_709d1762cf9545fbadd0cfcb7bcbcb20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0606aed3dec45dca8500df803b4f83d = $(`<div id="html_f0606aed3dec45dca8500df803b4f83d" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_709d1762cf9545fbadd0cfcb7bcbcb20.setContent(html_f0606aed3dec45dca8500df803b4f83d);
+        
+
+        marker_3e8008756a8e43ae99a9a804de0d5f3b.bindPopup(popup_709d1762cf9545fbadd0cfcb7bcbcb20)
+        ;
+
+        
+    
+    
+            var marker_482919dda1164ffba7dce23b04401f5c = L.marker(
+                [40.6821995703, -73.9616482003],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_9ad912e1876441ddbb60acfa98a4885a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff421cb724194525a6227cf94f15c538 = $(`<div id="html_ff421cb724194525a6227cf94f15c538" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_9ad912e1876441ddbb60acfa98a4885a.setContent(html_ff421cb724194525a6227cf94f15c538);
+        
+
+        marker_482919dda1164ffba7dce23b04401f5c.bindPopup(popup_9ad912e1876441ddbb60acfa98a4885a)
+        ;
+
+        
+    
+    
+            var marker_436edf98d17145788f5fd480e123385a = L.marker(
+                [40.6638268899, -73.95077465060001],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_60ad3ec15fea45559d377d2f01837e28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6233a09a970842718362e1a41758bb98 = $(`<div id="html_6233a09a970842718362e1a41758bb98" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_60ad3ec15fea45559d377d2f01837e28.setContent(html_6233a09a970842718362e1a41758bb98);
+        
+
+        marker_436edf98d17145788f5fd480e123385a.bindPopup(popup_60ad3ec15fea45559d377d2f01837e28)
+        ;
+
+        
+    
+    
+            var marker_8f7057fd258d4c0e9d55ccacf9ad916e = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_901633b1ed0e4d62b86a4bf991926ec2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28b10a45203c421a8d8da12abbdb149c = $(`<div id="html_28b10a45203c421a8d8da12abbdb149c" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_901633b1ed0e4d62b86a4bf991926ec2.setContent(html_28b10a45203c421a8d8da12abbdb149c);
+        
+
+        marker_8f7057fd258d4c0e9d55ccacf9ad916e.bindPopup(popup_901633b1ed0e4d62b86a4bf991926ec2)
+        ;
+
+        
+    
+    
+            var marker_be78d6194a5a423888a655f28ce70475 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_d4463dab007547cda044232c309c73e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baa3c7e027e8476aa4678ca65f2494a5 = $(`<div id="html_baa3c7e027e8476aa4678ca65f2494a5" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_d4463dab007547cda044232c309c73e3.setContent(html_baa3c7e027e8476aa4678ca65f2494a5);
+        
+
+        marker_be78d6194a5a423888a655f28ce70475.bindPopup(popup_d4463dab007547cda044232c309c73e3)
+        ;
+
+        
+    
+    
+            var marker_3c0c73319d534ef38315a3ac238cabd0 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_3fa0b457beec4e8e9a7151fc01ac4be9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c645e9ea15434b318d6208a154477404 = $(`<div id="html_c645e9ea15434b318d6208a154477404" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_3fa0b457beec4e8e9a7151fc01ac4be9.setContent(html_c645e9ea15434b318d6208a154477404);
+        
+
+        marker_3c0c73319d534ef38315a3ac238cabd0.bindPopup(popup_3fa0b457beec4e8e9a7151fc01ac4be9)
+        ;
+
+        
+    
+    
+            var marker_e3ce2b0230ad478aac6ce487832a2a11 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_35d80c1e189c44f09588f49fd53631dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d644977d06f4ffe97d7fe9802d4ae14 = $(`<div id="html_6d644977d06f4ffe97d7fe9802d4ae14" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_35d80c1e189c44f09588f49fd53631dd.setContent(html_6d644977d06f4ffe97d7fe9802d4ae14);
+        
+
+        marker_e3ce2b0230ad478aac6ce487832a2a11.bindPopup(popup_35d80c1e189c44f09588f49fd53631dd)
+        ;
+
+        
+    
+    
+            var marker_54796335352c4235bdba7f31b9f51152 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_e72a3a2c77e44a0f9063b304013ac4c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cecf085d30944b028fcbb052632a6927 = $(`<div id="html_cecf085d30944b028fcbb052632a6927" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_e72a3a2c77e44a0f9063b304013ac4c8.setContent(html_cecf085d30944b028fcbb052632a6927);
+        
+
+        marker_54796335352c4235bdba7f31b9f51152.bindPopup(popup_e72a3a2c77e44a0f9063b304013ac4c8)
+        ;
+
+        
+    
+    
+            var marker_aae7dec91332431a9367cec5b0ea860f = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_1138d0644a4342748ea5b14f3f3e2843 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e94f604ef7c49f9b0fe579de41fec32 = $(`<div id="html_3e94f604ef7c49f9b0fe579de41fec32" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_1138d0644a4342748ea5b14f3f3e2843.setContent(html_3e94f604ef7c49f9b0fe579de41fec32);
+        
+
+        marker_aae7dec91332431a9367cec5b0ea860f.bindPopup(popup_1138d0644a4342748ea5b14f3f3e2843)
+        ;
+
+        
+    
+    
+            var marker_0c22f73ca29a4ea1bc48640fcb88c4f8 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_afd21e8915fe4a919fc797aa473356f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0967e2994bb345ec85295ad38f1923fd = $(`<div id="html_0967e2994bb345ec85295ad38f1923fd" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_afd21e8915fe4a919fc797aa473356f2.setContent(html_0967e2994bb345ec85295ad38f1923fd);
+        
+
+        marker_0c22f73ca29a4ea1bc48640fcb88c4f8.bindPopup(popup_afd21e8915fe4a919fc797aa473356f2)
+        ;
+
+        
+    
+    
+            var marker_d6a648b7e4384de29a223445d2836631 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_9d1046399c524d6d9cf20ae6a383a7cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8a1036efd924dce991c728f11eaa9c5 = $(`<div id="html_d8a1036efd924dce991c728f11eaa9c5" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_9d1046399c524d6d9cf20ae6a383a7cd.setContent(html_d8a1036efd924dce991c728f11eaa9c5);
+        
+
+        marker_d6a648b7e4384de29a223445d2836631.bindPopup(popup_9d1046399c524d6d9cf20ae6a383a7cd)
+        ;
+
+        
+    
+    
+            var marker_a85455f16b734a04b86b2fda1161a0f5 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_2fdfa77775c244daad3068a37164ce39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75e1ba8423d64098987e714eb69025d5 = $(`<div id="html_75e1ba8423d64098987e714eb69025d5" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_2fdfa77775c244daad3068a37164ce39.setContent(html_75e1ba8423d64098987e714eb69025d5);
+        
+
+        marker_a85455f16b734a04b86b2fda1161a0f5.bindPopup(popup_2fdfa77775c244daad3068a37164ce39)
+        ;
+
+        
+    
+    
+            var marker_8bf3941319ab4ce9a77226292ddd2bf3 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_fdb79ee798a94c38acd8bdb8092a0f95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf9895813da64956884b1143044c4b82 = $(`<div id="html_cf9895813da64956884b1143044c4b82" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_fdb79ee798a94c38acd8bdb8092a0f95.setContent(html_cf9895813da64956884b1143044c4b82);
+        
+
+        marker_8bf3941319ab4ce9a77226292ddd2bf3.bindPopup(popup_fdb79ee798a94c38acd8bdb8092a0f95)
+        ;
+
+        
+    
+    
+            var marker_6c345c71c8b447df8d6287dd82668242 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_55901243f733488dbe82c69f2a1dcbae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fba318a26054dd1ad947c1c516b4a74 = $(`<div id="html_7fba318a26054dd1ad947c1c516b4a74" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_55901243f733488dbe82c69f2a1dcbae.setContent(html_7fba318a26054dd1ad947c1c516b4a74);
+        
+
+        marker_6c345c71c8b447df8d6287dd82668242.bindPopup(popup_55901243f733488dbe82c69f2a1dcbae)
+        ;
+
+        
+    
+    
+            var marker_a7c85e7bb13247e0baff4882a247b28f = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_d94e18968b054bdabc6319f903da0fe2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0588e65e2a054e1080044ade83eedf9c = $(`<div id="html_0588e65e2a054e1080044ade83eedf9c" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_d94e18968b054bdabc6319f903da0fe2.setContent(html_0588e65e2a054e1080044ade83eedf9c);
+        
+
+        marker_a7c85e7bb13247e0baff4882a247b28f.bindPopup(popup_d94e18968b054bdabc6319f903da0fe2)
+        ;
+
+        
+    
+    
+            var marker_d066c5b88e5e4d0c8629f4a530ad0e37 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_9c75ad6a8ac64fec87cf1570148acd4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2472b49ea7074fda8643a5f8e2c70e43 = $(`<div id="html_2472b49ea7074fda8643a5f8e2c70e43" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_9c75ad6a8ac64fec87cf1570148acd4c.setContent(html_2472b49ea7074fda8643a5f8e2c70e43);
+        
+
+        marker_d066c5b88e5e4d0c8629f4a530ad0e37.bindPopup(popup_9c75ad6a8ac64fec87cf1570148acd4c)
+        ;
+
+        
+    
+    
+            var marker_30c2165b8cda4490ae98aac82fadbd6a = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_ec664e25959b4c639aa6840008969b05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e32169cba87146f7a796be6edec714e6 = $(`<div id="html_e32169cba87146f7a796be6edec714e6" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_ec664e25959b4c639aa6840008969b05.setContent(html_e32169cba87146f7a796be6edec714e6);
+        
+
+        marker_30c2165b8cda4490ae98aac82fadbd6a.bindPopup(popup_ec664e25959b4c639aa6840008969b05)
+        ;
+
+        
+    
+    
+            var marker_701a11b18fd34bdc9911da66636c96c4 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_b1c34afa0e624cab84abdc48cef6ca9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3815989c8c9b492f9fea7e54bcd41726 = $(`<div id="html_3815989c8c9b492f9fea7e54bcd41726" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_b1c34afa0e624cab84abdc48cef6ca9d.setContent(html_3815989c8c9b492f9fea7e54bcd41726);
+        
+
+        marker_701a11b18fd34bdc9911da66636c96c4.bindPopup(popup_b1c34afa0e624cab84abdc48cef6ca9d)
+        ;
+
+        
+    
+    
+            var marker_ad212da3484a4ec5aafd84510e72b671 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_d6319194a82649a595da12c3ac8c76a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3ed4f8d69884a7ead4eb6ac572032ec = $(`<div id="html_d3ed4f8d69884a7ead4eb6ac572032ec" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_d6319194a82649a595da12c3ac8c76a8.setContent(html_d3ed4f8d69884a7ead4eb6ac572032ec);
+        
+
+        marker_ad212da3484a4ec5aafd84510e72b671.bindPopup(popup_d6319194a82649a595da12c3ac8c76a8)
+        ;
+
+        
+    
+    
+            var marker_632c613f55104a69b64aef76546a8aca = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_5afedd386c5d4eb99798296f3b3446be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_275aba3f79ae453686dfcc7d608df7a5 = $(`<div id="html_275aba3f79ae453686dfcc7d608df7a5" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_5afedd386c5d4eb99798296f3b3446be.setContent(html_275aba3f79ae453686dfcc7d608df7a5);
+        
+
+        marker_632c613f55104a69b64aef76546a8aca.bindPopup(popup_5afedd386c5d4eb99798296f3b3446be)
+        ;
+
+        
+    
+    
+            var marker_186d8a57147c41e5a56bc3397a404fed = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_d349bd7b4d934d6a8dd484562aa0bf11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e402ef508bb47bab8eb77747192b066 = $(`<div id="html_9e402ef508bb47bab8eb77747192b066" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_d349bd7b4d934d6a8dd484562aa0bf11.setContent(html_9e402ef508bb47bab8eb77747192b066);
+        
+
+        marker_186d8a57147c41e5a56bc3397a404fed.bindPopup(popup_d349bd7b4d934d6a8dd484562aa0bf11)
+        ;
+
+        
+    
+    
+            var marker_f56f7b2b28ab44f5849136d365f3dc75 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_0bc42cf823994090ade756fa60ecbdba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5694aae4a31401690e21baca56e7880 = $(`<div id="html_e5694aae4a31401690e21baca56e7880" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_0bc42cf823994090ade756fa60ecbdba.setContent(html_e5694aae4a31401690e21baca56e7880);
+        
+
+        marker_f56f7b2b28ab44f5849136d365f3dc75.bindPopup(popup_0bc42cf823994090ade756fa60ecbdba)
+        ;
+
+        
+    
+    
+            var marker_9e38fe0c2d0a4a9495600f9b22d8ca84 = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_251acaada74f47659fda4ab543196202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26e2a79985a149b4b1c8dd23403899bc = $(`<div id="html_26e2a79985a149b4b1c8dd23403899bc" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_251acaada74f47659fda4ab543196202.setContent(html_26e2a79985a149b4b1c8dd23403899bc);
+        
+
+        marker_9e38fe0c2d0a4a9495600f9b22d8ca84.bindPopup(popup_251acaada74f47659fda4ab543196202)
+        ;
+
+        
+    
+    
+            var marker_1e8c1888f3744bee957185a878be63df = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_d01948dc1de840109cb52ddcf44d10d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5ca89b683b74f808526e2d218bfdd97 = $(`<div id="html_b5ca89b683b74f808526e2d218bfdd97" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_d01948dc1de840109cb52ddcf44d10d7.setContent(html_b5ca89b683b74f808526e2d218bfdd97);
+        
+
+        marker_1e8c1888f3744bee957185a878be63df.bindPopup(popup_d01948dc1de840109cb52ddcf44d10d7)
+        ;
+
+        
+    
+    
+            var marker_fc9bc39737514b2ab9bc37297875c16e = L.marker(
+                [40.7087798504, -73.9591825697],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_81f1725c5a1f4ad78c00b97ff5991465 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43c20ffe1cd24248b85900168e28ae04 = $(`<div id="html_43c20ffe1cd24248b85900168e28ae04" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_81f1725c5a1f4ad78c00b97ff5991465.setContent(html_43c20ffe1cd24248b85900168e28ae04);
+        
+
+        marker_fc9bc39737514b2ab9bc37297875c16e.bindPopup(popup_81f1725c5a1f4ad78c00b97ff5991465)
+        ;
+
+        
+    
+    
+            var marker_983bae0828174192bb1d9ebf8829f06c = L.marker(
+                [40.6681559998, -73.9588009997],
+                {}
+            ).addTo(map_6fcaa68a9e5a4d88869a6aaea505d3dc);
+        
+    
+        var popup_74db9d59726a42f0b41f0ec3667c673e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffdfe15b210b4d09b54091a331897d48 = $(`<div id="html_ffdfe15b210b4d09b54091a331897d48" style="width: 100.0%; height: 100.0%;">Wifi Spots + Benches</div>`)[0];
+            popup_74db9d59726a42f0b41f0ec3667c673e.setContent(html_ffdfe15b210b4d09b54091a331897d48);
+        
+
+        marker_983bae0828174192bb1d9ebf8829f06c.bindPopup(popup_74db9d59726a42f0b41f0ec3667c673e)
+        ;
+
+        
+    
+</script>
