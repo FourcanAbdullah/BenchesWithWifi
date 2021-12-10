@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_677d4c03b340452c8df204d78a3b6fb9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_677d4c03b340452c8df204d78a3b6fb9" ></div>
+        
+</body>
+<script>    
+    
+            var map_677d4c03b340452c8df204d78a3b6fb9 = L.map(
+                "map_677d4c03b340452c8df204d78a3b6fb9",
+                {
+                    center: [40.768731, -73.964915],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_11f3b647a64240629254f2cc98a2329b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+            var marker_7cf16e4c7d2645afa2c6e572118b8fd3 = L.marker(
+                [40.8121265904, -73.9205525],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_eae0c9057da0439ab44f0d5b16c40db0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44f72853e46946b09f08ba803170c364 = $(`<div id="html_44f72853e46946b09f08ba803170c364" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 374 WILLIS AVENUE</div>`)[0];
+            popup_eae0c9057da0439ab44f0d5b16c40db0.setContent(html_44f72853e46946b09f08ba803170c364);
+        
+
+        marker_7cf16e4c7d2645afa2c6e572118b8fd3.bindPopup(popup_eae0c9057da0439ab44f0d5b16c40db0)
+        ;
+
+        
+    
+    
+            var marker_53340127d04747eeb41357af8f65fa39 = L.marker(
+                [40.8077559301, -73.9190061102],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_011beaec353141b49d8ff98e1c7201aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71de89e6ce704bc28e9393bd239c19be = $(`<div id="html_71de89e6ce704bc28e9393bd239c19be" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 250 BROOK AVENUE</div>`)[0];
+            popup_011beaec353141b49d8ff98e1c7201aa.setContent(html_71de89e6ce704bc28e9393bd239c19be);
+        
+
+        marker_53340127d04747eeb41357af8f65fa39.bindPopup(popup_011beaec353141b49d8ff98e1c7201aa)
+        ;
+
+        
+    
+    
+            var marker_68fbe2508e6b4e7d80514c25392ac1a1 = L.marker(
+                [40.8133669998, -73.91962478],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_50fbf9ed2b46445eb101f253186e6029 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_584eb22c9b234107bc027054bd1025f3 = $(`<div id="html_584eb22c9b234107bc027054bd1025f3" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 426 WILLIS AVENUE</div>`)[0];
+            popup_50fbf9ed2b46445eb101f253186e6029.setContent(html_584eb22c9b234107bc027054bd1025f3);
+        
+
+        marker_68fbe2508e6b4e7d80514c25392ac1a1.bindPopup(popup_50fbf9ed2b46445eb101f253186e6029)
+        ;
+
+        
+    
+    
+            var marker_b818efb99c06459fa98a54264b414a45 = L.marker(
+                [40.8475737003, -73.9007664401],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_174d1cd8060f47dcb75af9293d2b2ccc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81129608eac74dfca35195ec7f369146 = $(`<div id="html_81129608eac74dfca35195ec7f369146" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 400 EAST TREMONT AVENUE</div>`)[0];
+            popup_174d1cd8060f47dcb75af9293d2b2ccc.setContent(html_81129608eac74dfca35195ec7f369146);
+        
+
+        marker_b818efb99c06459fa98a54264b414a45.bindPopup(popup_174d1cd8060f47dcb75af9293d2b2ccc)
+        ;
+
+        
+    
+    
+            var marker_e8d6b49c36a84767a6ce8eca81687e37 = L.marker(
+                [40.8621522603, -73.89839588],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_6d4e0e01fa0d4542b90960274c394f27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1eb80ab8c8f4b70871493a85acbb055 = $(`<div id="html_a1eb80ab8c8f4b70871493a85acbb055" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 2454 CRESTON AVENUE</div>`)[0];
+            popup_6d4e0e01fa0d4542b90960274c394f27.setContent(html_a1eb80ab8c8f4b70871493a85acbb055);
+        
+
+        marker_e8d6b49c36a84767a6ce8eca81687e37.bindPopup(popup_6d4e0e01fa0d4542b90960274c394f27)
+        ;
+
+        
+    
+    
+            var marker_a00122ef84cf49e29309a7cd8d9f89a6 = L.marker(
+                [40.8166790698, -73.9164828502],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_d9e881308f8a4ba795173750fcbf12a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec84b20109874f77abba7cf6e25ae900 = $(`<div id="html_ec84b20109874f77abba7cf6e25ae900" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 2882 3 AVENUE</div>`)[0];
+            popup_d9e881308f8a4ba795173750fcbf12a0.setContent(html_ec84b20109874f77abba7cf6e25ae900);
+        
+
+        marker_a00122ef84cf49e29309a7cd8d9f89a6.bindPopup(popup_d9e881308f8a4ba795173750fcbf12a0)
+        ;
+
+        
+    
+    
+            var marker_ea6dc7f1d3b243a9a0a3c06b172897bb = L.marker(
+                [40.8611743803, -73.89644355029999],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_f14533e2f6af4728a11ff9f7e6967a47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c6c156c351e4c1e9eb33d7122f5dba1 = $(`<div id="html_8c6c156c351e4c1e9eb33d7122f5dba1" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 2463 VALENTINE AVENUE</div>`)[0];
+            popup_f14533e2f6af4728a11ff9f7e6967a47.setContent(html_8c6c156c351e4c1e9eb33d7122f5dba1);
+        
+
+        marker_ea6dc7f1d3b243a9a0a3c06b172897bb.bindPopup(popup_f14533e2f6af4728a11ff9f7e6967a47)
+        ;
+
+        
+    
+    
+            var marker_ce0d646c97824289848655c6da480f8b = L.marker(
+                [40.8089096601, -73.92220947],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_468f086a02454db8920fc033e918cc20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a97e349f5354815a1c2170ca59aae67 = $(`<div id="html_7a97e349f5354815a1c2170ca59aae67" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 417 EAST 138 STREET</div>`)[0];
+            popup_468f086a02454db8920fc033e918cc20.setContent(html_7a97e349f5354815a1c2170ca59aae67);
+        
+
+        marker_ce0d646c97824289848655c6da480f8b.bindPopup(popup_468f086a02454db8920fc033e918cc20)
+        ;
+
+        
+    
+    
+            var marker_cbf37de09a0147bbb772d8b3f73a42ba = L.marker(
+                [40.8422026302, -73.91603241979999],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_ab3be83c771a4684b3bdaebebf58dfd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bf76f9f99704e30aa58e35a79ab9529 = $(`<div id="html_5bf76f9f99704e30aa58e35a79ab9529" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 2 East 172 Street</div>`)[0];
+            popup_ab3be83c771a4684b3bdaebebf58dfd2.setContent(html_5bf76f9f99704e30aa58e35a79ab9529);
+        
+
+        marker_cbf37de09a0147bbb772d8b3f73a42ba.bindPopup(popup_ab3be83c771a4684b3bdaebebf58dfd2)
+        ;
+
+        
+    
+    
+            var marker_799885e749bf4177b52fc2bcf6a917c3 = L.marker(
+                [40.8538420303, -73.90938798020001],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_06887e7b06724460a6aed5d136a60dc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d4fa9d446854656b54ea25104047694 = $(`<div id="html_7d4fa9d446854656b54ea25104047694" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 48 WEST BURNSIDE AVENUE</div>`)[0];
+            popup_06887e7b06724460a6aed5d136a60dc6.setContent(html_7d4fa9d446854656b54ea25104047694);
+        
+
+        marker_799885e749bf4177b52fc2bcf6a917c3.bindPopup(popup_06887e7b06724460a6aed5d136a60dc6)
+        ;
+
+        
+    
+    
+            var marker_06fc5806602f43e9a4cf36cb1a804e53 = L.marker(
+                [40.8214369997, -73.9123269999],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_25630c1591d44e5cbbef0f9f2500633f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4afd2c7e8573482e9feac9c69d577f76 = $(`<div id="html_4afd2c7e8573482e9feac9c69d577f76" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 3097 3 AVENUE</div>`)[0];
+            popup_25630c1591d44e5cbbef0f9f2500633f.setContent(html_4afd2c7e8573482e9feac9c69d577f76);
+        
+
+        marker_06fc5806602f43e9a4cf36cb1a804e53.bindPopup(popup_25630c1591d44e5cbbef0f9f2500633f)
+        ;
+
+        
+    
+    
+            var marker_5e6488906a3741c5a6064d085ddc0408 = L.marker(
+                [40.854346219600004, -73.91021788970001],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_09e6233869c74c8585d4f692502672c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e489b8d52d4431aa1812d821bdf575b = $(`<div id="html_8e489b8d52d4431aa1812d821bdf575b" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 70 WEST BURNSIDE AVENUE</div>`)[0];
+            popup_09e6233869c74c8585d4f692502672c3.setContent(html_8e489b8d52d4431aa1812d821bdf575b);
+        
+
+        marker_5e6488906a3741c5a6064d085ddc0408.bindPopup(popup_09e6233869c74c8585d4f692502672c3)
+        ;
+
+        
+    
+    
+            var marker_20e41b8e0e344178a15f09eb62470c01 = L.marker(
+                [40.8617621802, -73.9019647199],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_a7f5332c467e4d6597a80767754b5dff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1912536683b1405fb3be2ee93614734a = $(`<div id="html_1912536683b1405fb3be2ee93614734a" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 2415 JEROME AVENUE</div>`)[0];
+            popup_a7f5332c467e4d6597a80767754b5dff.setContent(html_1912536683b1405fb3be2ee93614734a);
+        
+
+        marker_20e41b8e0e344178a15f09eb62470c01.bindPopup(popup_a7f5332c467e4d6597a80767754b5dff)
+        ;
+
+        
+    
+    
+            var marker_44648e3004524cc896c8b8700592cba2 = L.marker(
+                [40.8189419998, -73.92837],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_9b3b67ad753d4fa9b4349b743c303e27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7563f990073d4b1d901b14243d755a86 = $(`<div id="html_7563f990073d4b1d901b14243d755a86" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 135 EAST 149 STREET</div>`)[0];
+            popup_9b3b67ad753d4fa9b4349b743c303e27.setContent(html_7563f990073d4b1d901b14243d755a86);
+        
+
+        marker_44648e3004524cc896c8b8700592cba2.bindPopup(popup_9b3b67ad753d4fa9b4349b743c303e27)
+        ;
+
+        
+    
+    
+            var marker_01eafbb5412d42048083a020c3280de1 = L.marker(
+                [40.8188859899, -73.92921293970001],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_e35456a291874651ab3708dcb37bc164 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_089c695e5bde4f668a0b81893935b33e = $(`<div id="html_089c695e5bde4f668a0b81893935b33e" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 518 GERARD AVE</div>`)[0];
+            popup_e35456a291874651ab3708dcb37bc164.setContent(html_089c695e5bde4f668a0b81893935b33e);
+        
+
+        marker_01eafbb5412d42048083a020c3280de1.bindPopup(popup_e35456a291874651ab3708dcb37bc164)
+        ;
+
+        
+    
+    
+            var marker_668ee450fe21431f98c4a54196ddcf60 = L.marker(
+                [40.8101585602, -73.9278859696],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_56c6adf856a0421793c81e7361c3be89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a64245ca58ed43cda90fa4096eeef64a = $(`<div id="html_a64245ca58ed43cda90fa4096eeef64a" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 197 LINCOLN AVENUE</div>`)[0];
+            popup_56c6adf856a0421793c81e7361c3be89.setContent(html_a64245ca58ed43cda90fa4096eeef64a);
+        
+
+        marker_668ee450fe21431f98c4a54196ddcf60.bindPopup(popup_56c6adf856a0421793c81e7361c3be89)
+        ;
+
+        
+    
+    
+            var marker_9917b310c5334f7291404c770b0c39fd = L.marker(
+                [40.8239255499, -73.90854944029999],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_f86b5284ce0b4b8a9df2348a04d99bba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec8f53dca63c4508889220defa28ce7e = $(`<div id="html_ec8f53dca63c4508889220defa28ce7e" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 574 EAST 163 STREET</div>`)[0];
+            popup_f86b5284ce0b4b8a9df2348a04d99bba.setContent(html_ec8f53dca63c4508889220defa28ce7e);
+        
+
+        marker_9917b310c5334f7291404c770b0c39fd.bindPopup(popup_f86b5284ce0b4b8a9df2348a04d99bba)
+        ;
+
+        
+    
+    
+            var marker_5fd4edbf2182486d89d356bbd13c67c7 = L.marker(
+                [40.8490930197, -73.9000305104],
+                {}
+            ).addTo(map_677d4c03b340452c8df204d78a3b6fb9);
+        
+    
+        var popup_537a9e2723a847c899127fb05521d652 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7808ec7ca79b44f8bf9595797533e494 = $(`<div id="html_7808ec7ca79b44f8bf9595797533e494" style="width: 100.0%; height: 100.0%;">Hotspot with Bench: 1948 WEBSTER AVENUE</div>`)[0];
+            popup_537a9e2723a847c899127fb05521d652.setContent(html_7808ec7ca79b44f8bf9595797533e494);
+        
+
+        marker_5fd4edbf2182486d89d356bbd13c67c7.bindPopup(popup_537a9e2723a847c899127fb05521d652)
+        ;
+
+        
+    
+</script>
